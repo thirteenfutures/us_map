@@ -1,0 +1,39 @@
+body {
+    background: #fff;
+    color: #000;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+#holder {
+    height: 480px;
+    left: 50%;
+    margin: -240px 0 0 -320px;
+    position: absolute;
+    top: 50%;
+    width: 640px;
+}
+#canvas {
+    height: 720px;
+    left: 50%;
+    margin: -320px 0 0 -460px;
+    position: absolute;
+    top: 50%;
+    width: 920px;
+}
+#paper {
+    height: 720px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 920px;
+}
+#description > div{
+    display: none;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+}
+h2 {
+    text-align: center;
+}
